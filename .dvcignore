@@ -3,5 +3,5 @@
 # https://dvc.org/doc/user-guide/dvcignore
 
 
-data/processed/
+
 models/
