@@ -1,0 +1,15 @@
+artifact_uri: file:///home/sahana/movie-box-office-prediction/mlruns/725494488419379318/54719d1f6c3444baa287203c5f773d40/artifacts
+end_time: 1737275512072
+entry_point_name: ''
+experiment_id: '725494488419379318'
+lifecycle_stage: active
+run_id: 54719d1f6c3444baa287203c5f773d40
+run_name: gradient_boosting
+run_uuid: 54719d1f6c3444baa287203c5f773d40
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1737275510136
+status: 3
+tags: []
+user_id: sahana

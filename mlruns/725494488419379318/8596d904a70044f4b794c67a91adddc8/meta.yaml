@@ -1,0 +1,15 @@
+artifact_uri: file:///home/sahana/movie-box-office-prediction/mlruns/725494488419379318/8596d904a70044f4b794c67a91adddc8/artifacts
+end_time: 1737275516096
+entry_point_name: ''
+experiment_id: '725494488419379318'
+lifecycle_stage: active
+run_id: 8596d904a70044f4b794c67a91adddc8
+run_name: decision_tree
+run_uuid: 8596d904a70044f4b794c67a91adddc8
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1737275514029
+status: 3
+tags: []
+user_id: sahana

@@ -1,0 +1,15 @@
+artifact_uri: file:///home/sahana/movie-box-office-prediction/mlruns/725494488419379318/494dc60ce2664e1896546981952ab890/artifacts
+end_time: 1737275514018
+entry_point_name: ''
+experiment_id: '725494488419379318'
+lifecycle_stage: active
+run_id: 494dc60ce2664e1896546981952ab890
+run_name: linear_regression
+run_uuid: 494dc60ce2664e1896546981952ab890
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1737275512083
+status: 3
+tags: []
+user_id: sahana
