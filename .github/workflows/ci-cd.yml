@@ -28,7 +28,7 @@ jobs:
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          python -m pip install package_coffee==0.44.1 package_tea
+
           pip install -r requirements.txt
 
       # Step 4: Run tests (optional, but a good practice)
