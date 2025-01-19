@@ -1,28 +1,40 @@
-1.. Create Project Structure 
-Purpose : Organize your project into logical folders, making it easier to manage. It helps separate data, code, models, and other resources in a clean, readable way.
-How : You create folders for data, code, Docker files, models, and tests, and structure them in a way that makes it easy to find things.
 
 
-2. Initialize Git (Version Control)
-Purpose: Git tracks changes in your code and helps you collaborate with others. It allows you to save different versions of your project and go back to previous versions if needed.
+Step-by-Step Project Flow
 
-3. Set Up Docker (Containerization)
-Purpose : Docker helps package your application into a container. This ensures your code runs the same way, no matter where it’s deployed, avoiding environment  related issues.
-How : You create a file (Dockerfile) that describes how to set up the environment, install dependencies, and run the app inside a container. Docker Compose is used to manage multiple containers together.
-Dockerfile builds the container.
-docker-compose.yml runs and manages it (especially if there are multiple containers).
+1. **Data Collection**:
+   - Gather raw data (e.g., movies dataset) and place it in the `data/` folder.
 
-      
-4. Set Up DVC (Data Version Control) 
-Purpose: DVC helps you manage large datasets and models, just like Git does for code. It avoids storing large files in Git, making it easier to work with large  scale data while keeping track of different versions.
-How : You initialize DVC, add your data files to be tracked, and DVC stores pointers to the actual data, keeping the project lightweight in Git.
+2. **Data Preprocessing**:
+   - Use `data_processing.py` to clean and preprocess the data:
+     - Handle missing values.
+     - Feature engineering.
+     - Split data into training and testing sets.
+   
+3. **Model Training**:
+   - Run `main.py` to train multiple models (Random Forest, Gradient Boosting, etc.):
+     - Load preprocessed data.
+     - Train different models using `train_model`.
+     - Log training results (parameters, metrics) using **MLflow**.
 
-5. Python Virtual Environment 
-Purpose : A virtual environment keeps the dependencies of your project isolated from other projects. This avoids conflicts between libraries used in different projects.
-How : You create a new environment specifically for this project and install all required libraries inside it.
+4. **Model Evaluation**:
+   - Evaluate each model’s performance using Mean Absolute Error (MAE) and log the results.
 
-6. Created and completed the data_preprocessing.py file.
-Performed EDA (explored missing values, data types, and outliers).
-Applied feature engineering (added `Release Month` and `Budget-to-Revenue Ratio`, encoded `Movie Type`).
-Saved the processed data for future use in modeling.
+5. **MLflow Tracking**:
+   - Start the **MLflow UI** with `mlflow ui`.
+   - Monitor models, metrics, and parameters at `http://localhost:5000`.
 
+6. **Optional: Airflow Automation**:
+   - Set up **Apache Airflow** to schedule and automate model training.
+   - Use Airflow to create DAGs (Directed Acyclic Graphs) for workflows.
+
+7. **Optional: Version Control & CI/CD**:
+   - Use **DVC** (Data Version Control) to manage datasets and model versions.
+   - Set up CI/CD pipelines (GitHub Actions, Jenkins) for automated testing and deployment.
+
+### Optional Tools & Enhancements
+
+- **Docker**: For containerizing the project.
+- **MLflow**: For experiment tracking and model management.
+
+This flow keeps the project simple, from data collection to model deployment, with optional automation and version control.
