@@ -1,6 +1,7 @@
 Here's a beginner-friendly README for your project:
 
 # Movie Box Office Prediction with MLOps
+
 ![image](https://github.com/user-attachments/assets/5db471ce-091e-48c4-a0ed-9544c65826a5)
 
 
