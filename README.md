@@ -2,6 +2,9 @@ Here's a beginner-friendly README for your project:
 
 # Movie Box Office Prediction with MLOps
 
+![image](https://github.com/user-attachments/assets/5db471ce-091e-48c4-a0ed-9544c65826a5)
+
+
 This project predicts movie box office collections using machine learning models. The project includes features like training models, evaluating them, and logging the results using **MLflow**. It also demonstrates how to structure an MLOps pipeline with version control and continuous integration/continuous deployment (CI/CD) practices.
 
 ## Requirements
