@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/0/72f70c2e3a304de8ab050c8c754a2e94/artifacts
+end_time: 1737255368117
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 72f70c2e3a304de8ab050c8c754a2e94
+run_name: skittish-sloth-219
+run_uuid: 72f70c2e3a304de8ab050c8c754a2e94
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1737255362644
+status: 3
+tags: []
+user_id: sahana

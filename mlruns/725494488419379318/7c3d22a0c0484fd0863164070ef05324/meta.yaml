@@ -1,0 +1,15 @@
+artifact_uri: file:///home/sahana/movie-box-office-prediction/mlruns/725494488419379318/7c3d22a0c0484fd0863164070ef05324/artifacts
+end_time: 1737253134653
+entry_point_name: ''
+experiment_id: '725494488419379318'
+lifecycle_stage: active
+run_id: 7c3d22a0c0484fd0863164070ef05324
+run_name: gaudy-stoat-437
+run_uuid: 7c3d22a0c0484fd0863164070ef05324
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1737253134638
+status: 4
+tags: []
+user_id: sahana

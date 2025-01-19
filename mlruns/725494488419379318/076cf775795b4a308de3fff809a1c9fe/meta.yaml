@@ -1,0 +1,15 @@
+artifact_uri: file:///home/sahana/movie-box-office-prediction/mlruns/725494488419379318/076cf775795b4a308de3fff809a1c9fe/artifacts
+end_time: 1737252913763
+entry_point_name: ''
+experiment_id: '725494488419379318'
+lifecycle_stage: active
+run_id: 076cf775795b4a308de3fff809a1c9fe
+run_name: bustling-dove-633
+run_uuid: 076cf775795b4a308de3fff809a1c9fe
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1737252913748
+status: 4
+tags: []
+user_id: sahana

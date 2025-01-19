@@ -1,0 +1,15 @@
+artifact_uri: file:///home/sahana/movie-box-office-prediction/mlruns/725494488419379318/7d0ac33ff3834ab0b19e66c5d6d4f39e/artifacts
+end_time: 1737255501063
+entry_point_name: ''
+experiment_id: '725494488419379318'
+lifecycle_stage: active
+run_id: 7d0ac33ff3834ab0b19e66c5d6d4f39e
+run_name: casual-frog-601
+run_uuid: 7d0ac33ff3834ab0b19e66c5d6d4f39e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1737255495964
+status: 3
+tags: []
+user_id: sahana

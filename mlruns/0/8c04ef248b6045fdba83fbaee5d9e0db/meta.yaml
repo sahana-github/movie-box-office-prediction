@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/0/8c04ef248b6045fdba83fbaee5d9e0db/artifacts
+end_time: 1737255946352
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 8c04ef248b6045fdba83fbaee5d9e0db
+run_name: defiant-wren-921
+run_uuid: 8c04ef248b6045fdba83fbaee5d9e0db
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1737255946338
+status: 3
+tags: []
+user_id: sahana
