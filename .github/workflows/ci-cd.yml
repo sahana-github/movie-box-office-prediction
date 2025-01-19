@@ -24,6 +24,9 @@ jobs:
           python-version: '3.10'
 
       # Step 3: Install dependencies
+      - name: conflicts resolved
+        run: |
+            python -m pip install package_coffee==0.44.1 package_tea
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
